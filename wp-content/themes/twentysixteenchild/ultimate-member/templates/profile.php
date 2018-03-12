@@ -96,7 +96,14 @@
                                 $post_query->the_post();
                         ?>
 
-                            
+                        <?php
+                            $cat_classes = '';
+                            $cats = get_the_category();
+                                //print_r($cats);
+                                foreach($cats as $cat){
+                                    $cat_classes = $cat_classes . $cat->slug . ' ';
+                                }
+                            ?>
 
                                 <div class="mix umItem" <?php echo $cat_classes; ?>>
                                     <div class="umItemLink">
