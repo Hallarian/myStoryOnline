@@ -1,0 +1,1 @@
+[21-Feb-2018 08:17:52 America/Denver] PHP Fatal error:  Call to undefined function get_header() in /home2/phoebebo/public_html/mystoryonline/wp-content/themes/twentysixteenchild/index.php on line 17

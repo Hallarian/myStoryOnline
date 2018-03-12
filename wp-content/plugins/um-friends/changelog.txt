@@ -1,0 +1,10 @@
+Version 1.0.1
+
+* Added: English Translation files
+* Fixed: Remove notices from ajax requests
+* Fixed: Plugin updater
+* Fixed: Friend request count
+
+Version 1.0.0
+
+* Initial release
