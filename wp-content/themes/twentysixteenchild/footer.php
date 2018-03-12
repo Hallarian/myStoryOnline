@@ -54,6 +54,12 @@
                 easing: 'ease-in-out'
             }
         });
+        
+        var mixer = mixitup('.mix-publicStories', {
+            animation: {
+                easing: 'ease-in-out'
+            }
+        });
 
     </script>
     <script>
